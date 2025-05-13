@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: blue;
+    }
+    header{
+        background-color: rgb(127, 127, 144);
+        padding: 18px;
+        margin: 10px;
+    }
+    nav{
+        background-color: black;
+        padding: 3px;
+        box-shadow: 1px 1px 1px rgb(255, 27, 27);
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgb(0, 92, 92);
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    main{
+        background-color: rgb(189, 0, 0);
+        padding: 1opx;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    article{
+        background-color: rgb(132, 97, 165);
+        padding: 5px;
+        border-radius: 50px;
+    }
+    article > aside{
+        background-color: rgb(0, 42, 255);
+    }
+    footer{
+        background-color: aqua;
+        color: blue;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 4px;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: black;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">aa</a>
+            <a href="#">aa</a>
+            <a href="#">aa</a>
+            <a href="#">aa</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <aside id="assuntos">
+                <p>Esportes e politica</p>
+            </aside>
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos! Dolor culpa sint consequuntur laboriosam dolore iste magni ipsum suscipit quia odit officiis perspiciatis, labore a possimus temporibus sequi maiores.</p>
+            </article>
+            <aside>
+                <p>artigo escrito por neto</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por ia</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
